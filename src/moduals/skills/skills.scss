@@ -1,0 +1,50 @@
+.skills {
+    letter-spacing: 2px;
+
+    h5 {
+        background-color: rgb(19, 16, 16);
+        color: rgb(221, 219, 217);
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .container {
+
+        padding: 75px;
+
+        ul {
+
+            li {
+                font-size: 25px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    marquee {
+        .marq-main {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            
+            .marq-cont {
+                
+                box-shadow: 2px 2px 5px gray;
+                min-width: 175px;
+                background-color: rgb(19, 16, 16);
+                color: rgb(221, 219, 217);
+                padding: 15px;
+                margin-bottom: 75px;
+                border-radius: 10px;
+                text-align: center;
+            }
+        }
+        .marq-main1{
+            margin-left: -1220px;
+        }
+        .marq-main2{
+            margin-right: -1220px;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.header {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+
+        button{
+            letter-spacing: 2px;
+        }
+
+        #main {
+            border: none;
+            font-size: 16px;
+            background-color: transparent;
+
+            h1{
+                &:hover{
+                    text-shadow: 2px 2px 5px gray;
+                }
+            }
+        }
+
+        .menu {
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            div {
+                overflow-y: hidden;
+
+                ::after {
+                    margin-top: 5px;
+                    content: '';
+                    width: 100%;
+                    transform: translate(-111%);
+                    height: 3px;
+                    display: block;
+                    transition: .5s;
+                    overflow-x: hidden;
+                    background-color: black;
+                }
+
+                &:hover {
+                    ::after {
+                        transform: translate(0%);
+                    }
+                }
+
+                a {
+                    letter-spacing: 2px;
+                    color: black;
+                    text-decoration: none;
+                    display: block;
+                    font-weight: 650;
+                    font-size: 25px;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}

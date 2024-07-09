@@ -1,0 +1,49 @@
+.review {
+    h3 {
+        background-color: rgb(19, 16, 16);
+        color: rgb(221, 219, 217);
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 75px;
+        margin: 0 auto;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        input {
+            padding: 5px;
+            font-size: 18px;
+            outline: none;
+            border-radius: 7px;
+            border: 2px solid;
+            background-color: transparent;
+            display: block;
+        }
+
+        textarea {
+            padding: 5px;
+            font-size: 18px;
+            outline: none;
+            border-radius: 7px;
+            border: 2px solid;
+            background-color: transparent;
+            display: block;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 18px;
+            outline: none;
+            border-radius: 7px;
+            border: 2px solid;
+            background-color: rgb(19, 16, 16);
+            color: rgb(221, 219, 217);
+            width: 100%;
+        }
+    }
+}
